@@ -12,3 +12,5 @@ const highPrecedence = str => {
   const str2 = infixEval(str, regex);
   return str === str2 ? str : highPrecedence(str2);
 }
+
+const isEven = num => num % 2 === 0;
