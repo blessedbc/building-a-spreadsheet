@@ -25,3 +25,7 @@ const median = nums => {
     ? average([sorted[middle], sorted[middle + 1]])
     : sorted[Math.ceil(middle)];
 }
+
+const spreadsheetFunctions = {
+  
+}
