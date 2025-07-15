@@ -27,6 +27,7 @@ const median = nums => {
 }
 
 const spreadsheetFunctions = {
+
   sum,
   average,
   median,
@@ -40,4 +41,8 @@ const spreadsheetFunctions = {
   random: ([x, y]) => Math.floor(Math.random() * y + x),
   range: nums => range(...nums),
   nodupes: nums => [...new Set(nums).values()]
+}
+
+const applyFunction = str => {
+  
 }
