@@ -67,4 +67,5 @@ const evalFormula = (x, cells) => {
     const cellExpanded = rangeExpanded.replace(cellRegex, match => idToText(match.toUpperCase()));
   return cellExpanded;
    const functionExpanded = applyFunction(cellExpanded);
+   return functionExpanded === x ? functionExpanded : evalFormula(functionExpanded, cells);
 }
