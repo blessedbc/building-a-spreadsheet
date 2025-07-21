@@ -81,5 +81,8 @@ window.onload = () => {
    letters.forEach(createLabel);
     range(1, 99).forEach(number => {
        createLabel(number);
+       letters.forEach(letter => {
+        
+       })
     })
 }
