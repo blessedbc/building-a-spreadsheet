@@ -93,5 +93,5 @@ window.onload = () => {
 }
 
 const update = event => {
-  
+   const element = event.target;
 }
