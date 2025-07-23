@@ -14,7 +14,7 @@ This project reimagines a spreadsheet using **pure functions**, **immutable data
 
 ## 🔍 Features
 
-- 🧮 Evaluate formulas like `A - J`
+- 🧮 Evaluate formulas like `1 - 99, A - J`
 - 🔄 Auto-update dependent cells
 - 🪢 Dependency graph to handle chained formulas
 - ♻️ Immutable data structures (no mutations!)
